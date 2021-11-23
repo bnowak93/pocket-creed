@@ -1,0 +1,28 @@
+GET http://localhost:8081/pocket-creed/
+
+<> 2021-11-23T150630.404.json
+
+###
+
+GET http://localhost:8081
+
+<> 2021-11-23T150620.404.json
+
+###
+
+GET http://localhost:8081
+
+<> 2021-11-23T150614.404.json
+
+###
+
+GET http://localhost:8081
+
+<> 2021-11-23T150226.404.json
+
+###
+
+GET http://localhost:8080
+
+###
+
