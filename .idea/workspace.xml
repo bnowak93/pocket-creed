@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d58622e-ad72-439f-8bbd-3a714b44c87c" name="Changes" comment="" />
+    <list default="true" id="9d58622e-ad72-439f-8bbd-3a714b44c87c" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/KeyWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/models/ArmyModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/models/ChaosArmyModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/models/ImperiumArmyModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/models/XenoArmyModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/ArmyUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/ArmyUnitImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/MultipleEntityUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/SingleEntityUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/ArmyUnit.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +32,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -29,12 +44,14 @@
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
+        <entry key="JPA Inspector" value="true" />
         <entry key="JPA Palette" value="true" />
         <entry key="JPA Structure" value="true" />
       </map>
     </option>
     <option name="myId2Visible">
       <map>
+        <entry key="JPA Inspector" value="false" />
         <entry key="JPA Palette" value="false" />
         <entry key="JPA Structure" value="true" />
       </map>
@@ -188,8 +205,26 @@
       <option name="presentableId" value="Default" />
       <updated>1637594799077</updated>
       <workItem from="1637594801023" duration="16403000" />
-      <workItem from="1637666845736" duration="10055000" />
+      <workItem from="1637666845736" duration="12423000" />
+      <workItem from="1637761980083" duration="807000" />
+      <workItem from="1637854131707" duration="2394000" />
+      <workItem from="1638468167181" duration="3966000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1637678769956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1637678769956</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit">
+      <created>1637678870339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637678870339</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,5 +240,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
