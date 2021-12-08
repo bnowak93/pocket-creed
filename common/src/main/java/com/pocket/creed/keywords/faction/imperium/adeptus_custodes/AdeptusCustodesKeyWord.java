@@ -1,12 +1,7 @@
-package com.pocket.creed.keywords.faction.imperium;
+package com.pocket.creed.keywords.faction.imperium.adeptus_custodes;
 
 public enum AdeptusCustodesKeyWord {
     ADEPTUS_CUSTODES,
-    AQUILAN_SHIELD,
-    SOLAR_WATCH,
-    DREAD_HOST,
-    SHADOWKEEPERS,
-    EMISSARIES_IMPERATUS,
     CAPTAIN_GENERAL_TRAJANN_VALORIS,
     VALERIAN,
     ALEYA,

@@ -16,5 +16,4 @@ public enum KeyWord {
     TERMINATOR,
     TRANSPORT,
     VEHICLE
-
 }

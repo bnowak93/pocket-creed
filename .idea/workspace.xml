@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d58622e-ad72-439f-8bbd-3a714b44c87c" name="Changes" comment="Refactoring, adding enum representations of the keywords present in game system">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/FactionKeyWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/imperium/AdeptusCustodesKeyWord.java" afterDir="false" />
+    <list default="true" id="9d58622e-ad72-439f-8bbd-3a714b44c87c" name="Changes" comment="Adding enums for &quot;Adeptus Custodes&quot; faction.">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/imperium/adeptus_custodes/AdeptusCustodesSubfactionsKeyWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/KeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/KeyWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/imperium/ImperiumKeyWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/imperium/AdeptusCustodesKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/imperium/adeptus_custodes/AdeptusCustodesKeyWord.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,10 +64,11 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -201,7 +203,9 @@
       <workItem from="1637666845736" duration="12423000" />
       <workItem from="1637761980083" duration="807000" />
       <workItem from="1637854131707" duration="2394000" />
-      <workItem from="1638468167181" duration="6057000" />
+      <workItem from="1638468167181" duration="6484000" />
+      <workItem from="1638998750814" duration="255000" />
+      <workItem from="1638999019950" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1637678769956</created>
@@ -224,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638477971512</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding enums for &quot;Adeptus Custodes&quot; faction.">
+      <created>1638480334393</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638480334393</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +256,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Refactoring, adding enum representations of the keywords present in game system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring, adding enum representations of the keywords present in game system" />
+    <MESSAGE value="Adding enums for &quot;Adeptus Custodes&quot; faction." />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding enums for &quot;Adeptus Custodes&quot; faction." />
   </component>
 </project>
