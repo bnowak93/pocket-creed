@@ -7,12 +7,10 @@
  */
 
 dependencies {
-
-    implementation("com.google.guava:guava:30.1.1-jre")
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
+    implementation("com.google.guava:guava:31.0.1-jre")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.8.2")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     compileOnly("org.projectlombok:lombok:1.18.22")
-
 }
 
 //application {
