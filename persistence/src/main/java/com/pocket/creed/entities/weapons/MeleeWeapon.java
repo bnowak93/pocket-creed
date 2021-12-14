@@ -4,7 +4,6 @@ import com.pocket.creed.weapon_characteristics.ArmourPenetration;
 
 public class MeleeWeapon extends Weapon {
 
-
     public MeleeWeapon(String name, int strength, ArmourPenetration armourPenetration, int attacks, int damage, int pointCost) {
         this.name = name;
         this.strength = strength;

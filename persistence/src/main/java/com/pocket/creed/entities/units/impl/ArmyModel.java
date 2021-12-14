@@ -1,6 +1,6 @@
 package com.pocket.creed.entities.units.impl;
 
-import com.pocket.creed.entities.weapons.MeleeWeapon;
+import com.pocket.creed.entities.weapons.Weapon;
 import com.pocket.creed.keywords.KeyWord;
 import com.pocket.creed.keywords.faction.Faction;
 import lombok.Getter;
@@ -24,11 +24,11 @@ public class ArmyModel {
     private int pointsCost;
     private Set<KeyWord> keyWords;
     private Set<Faction> factionKeyWords;
-    private Set<MeleeWeapon> weapons;
+    private Set<Weapon> weapons;
 
     public ArmyModel(int movement, int weaponSkill, int ballisticSkill, int strength, int toughness, int wounds,
                      int attacks, int leadership, int saveCharacteristics, int pointsCost, Set<KeyWord> keyWords,
-                     Set<Faction> factionKeyWords, Set<MeleeWeapon> weapons) {
+                     Set<Faction> factionKeyWords, Set<Weapon> weapons) {
         this.movement = movement;
         this.weaponSkill = weaponSkill;
         this.ballisticSkill = ballisticSkill;
