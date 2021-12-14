@@ -1,19 +1,9 @@
 package com.pocket.creed.entities.weapons;
 
 import com.pocket.creed.weapon_characteristics.ArmourPenetration;
-import lombok.Getter;
-import lombok.Setter;
 
-@Getter
-@Setter
-public class MeleeWeapon {
+public class MeleeWeapon extends Weapon {
 
-    String name;
-    int strength;
-    ArmourPenetration armourPenetration;
-    int attacks;
-    int damage;
-    int pointCost;
 
     public MeleeWeapon(String name, int strength, ArmourPenetration armourPenetration, int attacks, int damage, int pointCost) {
         this.name = name;
