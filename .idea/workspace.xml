@@ -4,29 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d58622e-ad72-439f-8bbd-3a714b44c87c" name="Changes" comment="Adding lombok lib to the project.&#10;Faction keywords are implementing shared interface to better represent each model standing in the setting.">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/armour_penetration/ArmourPenetration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/Faction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/ArmyModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/weapons/Weapon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fab42c15-3ce6-4f8e-b4cb-6495b174d032.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fab42c15-3ce6-4f8e-b4cb-6495b174d032.xml" afterDir="false" />
+    <list default="true" id="9d58622e-ad72-439f-8bbd-3a714b44c87c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/weapon_characteristics/RangeWeaponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/weapons/RangeWeapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/KeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/KeyWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/FactionKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/FactionKeyWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/imperium/adeptus_custodes/AdeptusCustodesKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/imperium/adeptus_custodes/AdeptusCustodesKeyWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/imperium/adeptus_custodes/AdeptusCustodesSubfactionsKeyWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/imperium/adeptus_custodes/AdeptusCustodesSubfactionsKeyWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/models/ArmyModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/models/ChaosArmyModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/models/ImperiumArmyModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/models/XenoArmyModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/ArmyUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/ArmyUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/ArmyUnitImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/MultipleEntityUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/MultipleEntityUnit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/SingleEntityUnit.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/SingleEntityUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/armour_penetration/ArmourPenetration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/weapon_characteristics/ArmourPenetration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/Faction.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/pocket/creed/keywords/faction/Faction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/ArmyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/ArmyModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/weapons/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/weapons/Weapon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,9 +47,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -243,7 +228,8 @@
       <workItem from="1638998750814" duration="255000" />
       <workItem from="1638999019950" duration="5909000" />
       <workItem from="1639140574469" duration="3377000" />
-      <workItem from="1639411259553" duration="9278000" />
+      <workItem from="1639411259553" duration="9630000" />
+      <workItem from="1639511867604" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1637678769956</created>
@@ -280,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639000177706</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding lombok lib to the project.&#10;Faction keywords are implementing shared interface to better represent each model standing in the setting.">
+      <created>1639434677925</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639434677925</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

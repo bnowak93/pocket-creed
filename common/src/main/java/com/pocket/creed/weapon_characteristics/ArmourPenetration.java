@@ -1,4 +1,4 @@
-package com.pocket.creed.armour_penetration;
+package com.pocket.creed.weapon_characteristics;
 
 import lombok.Getter;
 
