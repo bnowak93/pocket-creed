@@ -6,6 +6,7 @@ import com.pocket.creed.keywords.faction.Faction;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
 import java.util.Set;
 
 @Getter
@@ -24,11 +25,11 @@ public class ArmyModel {
     private int pointsCost;
     private Set<KeyWord> keyWords;
     private Set<Faction> factionKeyWords;
-    private Set<Weapon> weapons;
+    private List<Weapon> weapons;
 
     public ArmyModel(int movement, int weaponSkill, int ballisticSkill, int strength, int toughness, int wounds,
                      int attacks, int leadership, int saveCharacteristics, int pointsCost, Set<KeyWord> keyWords,
-                     Set<Faction> factionKeyWords, Set<Weapon> weapons) {
+                     Set<Faction> factionKeyWords, List<Weapon> weapons) {
         this.movement = movement;
         this.weaponSkill = weaponSkill;
         this.ballisticSkill = ballisticSkill;
