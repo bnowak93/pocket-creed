@@ -9,17 +9,32 @@ public class DamageCalculator {
     private DamageCalculator() {
     }
 
-    private static double calculateSuccessfulHitRolls(int amountOfAttacks, int bS) {
-        double probabilityOfDesiredThrow = (D6_DICE - bS) / D6_SIDES;
-        return amountOfAttacks * Math.pow(probabilityOfDesiredThrow, amountOfAttacks);
+    private static int calculateSuccessfulHitRolls(int amountOfAttacks, int modelSkill) {
+        double probabilityOfDesiredThrow = (D6_DICE - modelSkill) / D6_SIDES;
+        return calculateApproxSuccessfulThrows(probabilityOfDesiredThrow, amountOfAttacks);
     }
 
-    private static double calculateSuccessfulWoundRolls(double amountOfHits, int weaponStr, int targetToughness){
-        return 0;
+    private static int calculateSuccessfulWoundRolls(int amountOfHits, int weaponStr, int targetToughness) {
+        int desiredThrow = checkStrToToughRatio(weaponStr, targetToughness);
+        double probabilityOfDesiredThrow = (D6_DICE - desiredThrow) / D6_SIDES;
+        return calculateApproxSuccessfulThrows(probabilityOfDesiredThrow, amountOfHits);
     }
 
     private static int calculateSuccessfulHitRolls(int amountOfAttacks, int bS, int modifier) {
 
         return 0;
+    }
+
+    private static int checkStrToToughRatio(int str, int tough) {
+        if (str > tough) {
+            return str >= 2 * tough ? 2 : 3;
+        } else if (str < tough) {
+            return str <= tough / 2 ? 6 : 5;
+        }
+        return 4;
+    }
+
+    private static int calculateApproxSuccessfulThrows(double probabilityOfDesiredOutcome, int amountOfDice) {
+        return Math.toIntExact(Math.round(amountOfDice * Math.pow(probabilityOfDesiredOutcome, amountOfDice)));
     }
 }

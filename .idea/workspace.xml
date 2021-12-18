@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d58622e-ad72-439f-8bbd-3a714b44c87c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/pocket/creed/calculation/DamageCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/ArmyModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/persistence/src/main/java/com/pocket/creed/entities/units/impl/ArmyModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/pocket/creed/calculation/DamageCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/pocket/creed/calculation/DamageCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,6 +226,7 @@
       <workItem from="1639411259553" duration="9630000" />
       <workItem from="1639511867604" duration="4652000" />
       <workItem from="1639686927670" duration="6564000" />
+      <workItem from="1639786909985" duration="2058000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1637678769956</created>
